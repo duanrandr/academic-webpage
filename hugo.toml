@@ -1,0 +1,69 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Ran Duan"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+[params]
+  author = "Ran Duan"
+  description = "Ph.D. candidate at USC. Marine cyanobacteria, nutrient limitation & warming, multi-omics."
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+
+[params.profileMode]
+  enabled = true
+  title = "Ran Duan"
+  subtitle = "Ph.D. candidate (USC) · Marine cyanobacteria · Multi-omics · Nutrient limitation & warming"
+  imageUrl = "/picture.jpeg"
+  imageTitle = "Ran Duan"
+  imageWidth = 180
+  imageHeight = 180
+
+  [[params.profileMode.buttons]]
+    name = "About"
+    url = "/about/"
+
+  [[params.profileMode.buttons]]
+    name = "Publications"
+    url = "/papers/"
+
+  [[params.profileMode.buttons]]
+    name = "Talks"
+    url = "/talks/"
+
+  [[params.profileMode.buttons]]
+    name = "Teaching"
+    url = "/teaching/"
+
+  [[params.profileMode.buttons]]
+    name = "CV"
+    url = "/cv.pdf"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 10
+
+[[menu.main]]
+  name = "Publications"
+  url = "/papers/"
+  weight = 20
+
+[[menu.main]]
+  name = "Talks"
+  url = "/talks/"
+  weight = 30
+
+[[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 40
+
+[[menu.main]]
+  name = "CV"
+  url = "/cv.pdf"
+  weight = 50
