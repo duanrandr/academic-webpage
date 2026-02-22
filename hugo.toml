@@ -67,3 +67,20 @@ enableRobotsTXT = true
   name = "CV"
   url = "/cv.pdf"
   weight = 50
+
+  [[menu.main]]
+  name = "Awards"
+  url = "/awards/"
+  weight = 60
+
+[[menu.main]]
+  name = "Mentoring"
+  url = "/mentoring/"
+  weight = 70
+
+[[menu.main]]
+  name = "Service"
+  url = "/service/"
+  weight = 80
+
+  

@@ -4,11 +4,17 @@
   <url>
     <loc>/about/</loc>
   </url><url>
+    <loc>/awards/</loc>
+  </url><url>
     <loc>/categories/</loc>
+  </url><url>
+    <loc>/mentoring/</loc>
   </url><url>
     <loc>/papers/</loc>
   </url><url>
     <loc>/</loc>
+  </url><url>
+    <loc>/service/</loc>
   </url><url>
     <loc>/tags/</loc>
   </url><url>
